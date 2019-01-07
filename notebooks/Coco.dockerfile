@@ -15,12 +15,12 @@ RUN  apt-get clean && \
         rm -rf /var/lib/apt/lists/*
 
 RUN mkdir -p /app/models /app/tf_serving_scripts
-COPY models/fashion_mnist/ /app/models
-COPY fashion_mnist.sh /app/tf_serving_scripts
+COPY models/coco/ /app/models
+COPY coco.sh /app/tf_serving_scripts
 
 # GRPC Port
 EXPOSE 8500
 # HTTP REST API Port
 EXPOSE 8501  
 
-ENTRYPOINT ["/bin/sh", "/app/tf_serving_scripts/fashion_mnist.sh"]
+ENTRYPOINT ["/bin/sh", "/app/tf_serving_scripts/coco.sh"]
