@@ -17,7 +17,9 @@ RUN mkdir -p /app/models /app/tf_serving_scripts
 COPY models /app/models
 COPY tf_serving_scripts /app/tf_serving_scripts
 
+# GRPC Port
 EXPOSE 8500
-EXPOSE 8501
+# HTTP REST API Port
+EXPOSE 8501  
 
 ENTRYPOINT ["/bin/sh", "/app/tf_serving_scripts/resnet.sh"]
