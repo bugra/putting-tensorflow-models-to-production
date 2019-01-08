@@ -11,6 +11,7 @@ logger = get_logger('resnet_client')
 # The server URL specifies the endpoint of your server running the ResNet
 # model with the name "resnet" and using the predict interface.
 RESNET_STATUS_URL = 'http://localhost:8501/v1/models/resnet'
+RESNET_METADATA_URL = 'http://localhost:8501/v1/models/resnet/metadata'
 SERVER_URL = 'http://localhost:8501/v1/models/resnet:predict'
 
 # The image URL is the location of the image we should send to the server
@@ -39,7 +40,7 @@ async def main():
     response = requests.post(SERVER_URL, json=predict_request)
     response.raise_for_status()
 
-  # Send few actual requests and report average latency.
+  # Send few actual requests and report average latency
   total_time = 0
   num_requests = 100
   for _ in range(num_requests):
@@ -48,7 +49,7 @@ async def main():
     total_time += response.elapsed.total_seconds()
     prediction = response.json()['predictions'][0]
 
-  print('Prediction class: {}, avg latency: {} ms'.format(
+  logger.info('Prediction class: {}, avg latency: {} ms'.format(
       prediction['classes'], (total_time*1000)/num_requests))
 
 

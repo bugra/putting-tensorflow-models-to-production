@@ -1,2 +1,4 @@
 baybars==0.10.0
 requests==2.20.1
+numpy==1.15.4
+Pillow==5.3.0
