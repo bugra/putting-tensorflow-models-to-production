@@ -1,4 +1,3 @@
-# To be able to run the dockerfile, we need to do the first training portion
 FROM ubuntu:16.04
 LABEL maintainer="bugra@ymail.com"
 RUN apt-get update && apt-get install -y \
