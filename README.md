@@ -10,7 +10,7 @@ Tutorial Materials for Putting Tensorflow Models To Production
 
 ### What I did
 - Lead for recommender system @Hinge
-- Worked a number of startups that did not quite make it :) 
+- Worked for a number of startups that did not quite make it :) 
 
 ### Background
 - MS in machine learning&signal processing(CS) [NYU]
