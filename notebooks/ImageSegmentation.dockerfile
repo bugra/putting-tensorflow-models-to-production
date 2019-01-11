@@ -22,4 +22,4 @@ EXPOSE 8500
 # HTTP REST API Port
 EXPOSE 8501  
 
-ENTRYPOINT ["/bin/sh", "/app/tf_serving_scripts/fashion_mnist.sh"]
+ENTRYPOINT ["/bin/sh", "/app/tf_serving_scripts/coco.sh"]
