@@ -20,7 +20,7 @@ Tutorial Materials for Putting Tensorflow Models To Production
 ### Tutorial Material
 - Tutorial: https://github.com/bugra/putting-tensorflow-models-to-production 
 - http://bit.ly/bugra-tf
-  - (you should at least star it and maybe clone&fork, create an issue, fix things)
+- `git clone https://github.com/bugra/putting-tensorflow-models-to-production.git  ` to your local machine
 
 
 ### How to reach me
@@ -31,7 +31,9 @@ Tutorial Materials for Putting Tensorflow Models To Production
 ### How many
 - people are students
 - people have used Docker
+    - operating-system-level virtualization, also known as "containerization" 
 - people have used `pip`
+    - Pip Installs Packages
 - people have used Tensorflow in some capacity
 
 
