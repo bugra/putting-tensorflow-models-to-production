@@ -10,7 +10,7 @@ Tutorial Materials for Putting Tensorflow Models To Production
 
 ### What I did
 - Lead for recommender system @Hinge
-- Worked a number of startups that quite did not make it :) 
+- Worked a number of startups that did not quite make it :) 
 
 ### Background
 - MS in machine learning&signal processing(CS) [NYU]
@@ -27,6 +27,12 @@ Tutorial Materials for Putting Tensorflow Models To Production
 - Twitter @bugraa => You can ask questions you want after tutorial
 - You can also reach to me: bugra@nyu.edu (I may not be responsive until 14th Jan)
 
+
+### How many
+- people are students
+- people have used Docker
+- people have used `pip`
+- people have used Tensorflow in some capacity
 
 
 ### General Setup
