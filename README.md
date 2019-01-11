@@ -24,7 +24,7 @@ Tutorial Materials for Putting Tensorflow Models To Production
 
 
 ### How to reach me
-- Twitter @bugraa => You can ask questions you want after tutorial
+- Twitter @bugraa => You can ask questions if you want after tutorial
 - You can also reach to me: bugra@nyu.edu (I may not be responsive until 14th Jan)
 
 
