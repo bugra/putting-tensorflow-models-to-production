@@ -44,6 +44,11 @@ Tutorial Materials for Putting Tensorflow Models To Production
 3. Install all of the dependencies through `pip3 install -r requirements.txt` (Not sure what this is; ask ;)
 
 
+### Prepare Environment
+- `git clone https://github.com/bugra/putting-tensorflow-models-to-production.git`
+- `pip3 install -r requirements.txt`
+
+
 ### Docker Setup
 - For any image that you want to build; you can use the following command: `docker build -f {{DOCKER_FILE_PATH}} .`
 - After this, we need to "run" the image: `docker run -p 8501:8501 -it {{DOCKER_SHA}}`
