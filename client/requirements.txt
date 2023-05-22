@@ -1,4 +1,4 @@
 baybars==0.10.0
-requests==2.20.1
+requests==2.31.0
 numpy==1.22.0
 Pillow==9.3.0
